@@ -11,7 +11,7 @@ constexpr bool  FULLSCREEN {false};
 
 int main(int argv, char** args){
     Game game;
-    game.init<title, STARTING_X  ,STARTING_Y ,RES_X ,RES_Y ,FULLSCREEN>();         //since they're all known at compile time
+    game.init<title, STARTING_X  ,STARTING_Y  ,RES_Y, RES_X ,FULLSCREEN>();         //since they're all known at compile time
     while(game.running()){
         game.handleEvents();
         game.update();
