@@ -1,6 +1,5 @@
-Drawing on the screen using SDL
+Drawing on the screen using SDL.
 
-press r to show the last group
+Press the left mouse button to start drawing and press it again to stop.
 
-//todo: make it so pressing the button enables to draw, and add features and shit
-//and maybe no need to clear the screen every time?? 
+Clear the screen by pressing 'c'.
