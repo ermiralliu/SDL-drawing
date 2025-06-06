@@ -1,6 +1,5 @@
 #define SDL_MAIN_HANDLED
 #include "Game.hpp"
-#include <memory>
 
 constexpr const char title[10] = "test"; //for some reason the template didn't accept it if declared in main
 constexpr int STARTING_X { 100 };

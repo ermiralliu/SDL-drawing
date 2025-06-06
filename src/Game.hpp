@@ -4,8 +4,6 @@
 #include <SDL2/SDL.h>
 #include "Render.hpp"
 #include <iostream>
-#include <vector>
-#include <list>
 
 class Game{
     public:
